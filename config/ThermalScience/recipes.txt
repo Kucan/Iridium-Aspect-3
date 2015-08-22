@@ -1,0 +1,20 @@
+//machine: carbothermicFurnace
+//energy: 1000
+//recipe: (<minecraft,sand,2>, <minecraft,coal,2>)->(<EnderIO,itemMaterial,2,4>)
+
+//machine: compressor
+//energy: 100000
+//recipe: ("dustCoal,64", "wtf,13")->(<minecraft,diamond>)
+//recipe: ("ingotIron,4")->("ingotSilver,1")
+
+//machine: assemblingMachine
+//energy: 50000
+//fluid: cryotheum
+//fluidAmount: 420
+//recipe: ("ingotIron,10", "ingotGold,10")->(<minecraft,diamond>)
+
+//machine: compressor
+//portable: true
+//recipe: (...)(...)
+//portable: false
+//recipe: (...)(...)
