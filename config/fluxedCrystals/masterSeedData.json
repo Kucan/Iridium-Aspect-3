@@ -1,27 +1,6 @@
 {
   "seeds": [
     {
-      "name": "Testy",
-      "color": 7507918,
-      "ingredient": "minecraft:bedrock;0",
-      "dropMin": 3,
-      "dropMax": 8,
-      "growthTime": 600,
-      "tier": 9001,
-      "ingredientAmount": 16,
-      "powerPerStage": 2000,
-      "decorationBlocks": true,
-      "weightedDrop": "minecraft:dirt",
-      "weightedDropChance": 1,
-      "refinerAmount": 32,
-      "dimensionWhitelist": 0,
-      "lore": "The color codes are in integer format\nfor more information, go to\nwww.colors.jaredlll08.info",
-      "aspect": "aer",
-      "seedReturn": 1,
-      "seedID": 0,
-      "type": "crystal"
-    },
-    {
       "name": "Iron",
       "color": 14071681,
       "ingredient": "ingotIron",
@@ -36,7 +15,7 @@
       "weightedDropChance": 1,
       "refinerAmount": 16,
       "seedReturn": 1,
-      "seedID": 1,
+      "seedID": 0,
       "type": "crystal"
     },
     {
