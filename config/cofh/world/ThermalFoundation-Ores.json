@@ -2,7 +2,7 @@
     "copper": {
         "template": "uniform",
         "block": "ThermalFoundation:Ore",
-        "clusterSize": 8,
+        "clusterSize": 6,
         "numClusters": 10,
         "minHeight": 40,
         "maxHeight": 75,
@@ -14,13 +14,14 @@
         "dimensionRestriction": "blacklist",
         "dimensions": [
             -1,
-            1
+            1,
+			7
         ]
     },
     "tin": {
         "template": "uniform",
         "block": {"name": "ThermalFoundation:Ore", "metadata": 1},
-        "clusterSize": 8,
+        "clusterSize": 6,
         "numClusters": 8,
         "minHeight": 20,
         "maxHeight": 55,
@@ -32,7 +33,8 @@
         "dimensionRestriction": "blacklist",
         "dimensions": [
             -1,
-            1
+            1,
+			7
         ]
     },
     "silver": {
@@ -41,7 +43,7 @@
             {"name": "ThermalFoundation:Ore", "metadata": 2, "weight":80},
             {"name": "ThermalFoundation:Ore", "metadata": 3, "weight":20}
         ],
-        "clusterSize": 8,
+        "clusterSize": 6,
         "numClusters": 6,
         "minHeight": 5,
         "maxHeight": 30,
@@ -53,7 +55,8 @@
         "dimensionRestriction": "blacklist",
         "dimensions": [
             -1,
-            1
+            1,
+			7
         ]
     },
     "lead": {
@@ -62,7 +65,7 @@
             {"name": "ThermalFoundation:Ore", "metadata": 3, "weight": 90},
             {"name": "ThermalFoundation:Ore", "metadata": 2, "weight": 10}
         ],
-        "clusterSize": 8,
+        "clusterSize": 6,
         "numClusters": 8,
         "minHeight": 10,
         "maxHeight": 35,
@@ -74,13 +77,14 @@
         "dimensionRestriction": "blacklist",
         "dimensions": [
             -1,
-            1
+            1,
+			7
         ]
     },
     "nickel": {
         "template": "uniform",
         "block": {"name": "ThermalFoundation:Ore", "metadata": 4},
-        "clusterSize": 4,
+        "clusterSize": 3,
         "numClusters": 3,
         "minHeight": 5,
         "maxHeight": 20,
@@ -92,7 +96,8 @@
         "dimensionRestriction": "blacklist",
         "dimensions": [
             -1,
-            1
+            1,
+			7
         ]
     },
     "platinum": {
@@ -102,7 +107,7 @@
             {"name": "ThermalFoundation:Ore", "metadata": 5, "weight": 80},
             {"name": "ThermalFoundation:Ore", "metadata": 4, "weight": 20}
         ],
-        "clusterSize": 3,
+        "clusterSize": 2,
         "numClusters": 1,
         "minHeight": 5,
         "maxHeight": 30,
@@ -114,13 +119,14 @@
         "dimensionRestriction": "blacklist",
         "dimensions": [
             -1,
-            1
+            1,
+			7
         ]
     },
     "copperHigh": {
         "template": "uniform",
         "block": "ThermalFoundation:Ore",
-        "clusterSize": 8,
+        "clusterSize": 6,
         "numClusters": 8,
         "minHeight": 48,
         "maxHeight": 96,
@@ -132,7 +138,8 @@
         "dimensionRestriction": "blacklist",
         "dimensions": [
             -1,
-            1
+            1,
+			7
         ]
     }
 }

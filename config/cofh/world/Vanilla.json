@@ -64,7 +64,8 @@
         "dimensionRestriction": "blacklist",
         "dimensions": [
             -1,
-            1
+            1,
+			7
         ]
     },
     "gold": {
@@ -81,7 +82,8 @@
         "dimensionRestriction": "blacklist",
         "dimensions": [
             -1,
-            1
+            1,
+			7
         ]
     },
     "redstone": {
@@ -98,7 +100,8 @@
         "dimensionRestriction": "blacklist",
         "dimensions": [
             -1,
-            1
+            1,
+			7
         ]
     },
     "diamond": {
@@ -115,7 +118,8 @@
         "dimensionRestriction": "blacklist",
         "dimensions": [
             -1,
-            1
+            1,
+			
         ]
     },
     "lapis": {
@@ -132,7 +136,8 @@
         "dimensionRestriction": "blacklist",
         "dimensions": [
             -1,
-            1
+            1,
+			7
         ]
     },
     "quartz": {
