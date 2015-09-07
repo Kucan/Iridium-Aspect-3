@@ -18,3 +18,5 @@ BinnieCore.js
 Botany.js
 Botania.js
 ExtraTic.js
+Galacticraft.js
+Lasers.js

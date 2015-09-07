@@ -12,6 +12,9 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<BuildCraft|Factory:refineryBlock>);
+recipes.remove(<GalacticraftCore:tile.refinery>);
+
 
 // ================================================================================
 //#MARKER REMOVE SHAPELESS

@@ -3,4 +3,12 @@ if (FML.isModLoaded("BuildCraft|Transport")) {
 
     // Special handler that cleanly removes facades.
     BC.obliterate_facades(java.random(BC.getFacadesSize()));
+	
+	
 }
+
+// Removes refinery
+if (FML.isModLoaded("BuildCraft|Factory"))  {
+	NEI.hide("BuildCraft|Factory:refineryBlock");
+}
+
