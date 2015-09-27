@@ -3,6 +3,7 @@
 var etorch = <ore:torch>;
 etorch.add(<enviromine:firetorch>);
 etorch.add(<enviromine:offtorch>);
+etorch.add(<minecraft:torch>);
 
 // Removing vanilla torch recipes
 
@@ -84,8 +85,8 @@ recipes.addShapeless(<enviromine:davy_lamp:1> * 1, [<enviromine:davy_lamp> * 1, 
 
 // Fix for Blood Magic recipe, not working, saving for Blood Magic support //
 
-// mods.bloodmagic.BloodOrb.remove(<AWWayofTime:itemBloodLightSigil>);
-// mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:itemBloodLightSigil>, [[<minecraft:glowstone>, <enviromine:firetorch>,<minecraft:glowstone>], [<AWWayofTime:imbuedSlate>, <AWWayofTime:imbuedSlate>, <AWWayofTime:imbuedSlate>], [<minecraft:glowstone>, <AWWayofTime:magicianBloodOrb>, <minecraft:glowstone>]]);
+//mods.bloodmagic.BloodOrb.removerecipe(<AWWayofTime:itemBloodLightSigil>);
+mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:itemBloodLightSigil>, [[<minecraft:glowstone>, <enviromine:firetorch>,<minecraft:glowstone>], [<AWWayofTime:imbuedSlate>, <AWWayofTime:imbuedSlate>, <AWWayofTime:imbuedSlate>], [<minecraft:glowstone>, <AWWayofTime:magicianBloodOrb>, <minecraft:glowstone>]]);
 
 
 
